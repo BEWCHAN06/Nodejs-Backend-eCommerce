@@ -25,6 +25,7 @@ app.use(compression())
  *không dùng nó thì chúng ta vận chuyển dữ liệu rất là lớn, còn dùng thì chúng ta có thể giảm được dữ liệu rất nhiều
  */
 //init db
+require('./dbs/init.mongodb')
 
 //init routes
 app.get('/', (req, res,next) => {
