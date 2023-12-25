@@ -4,3 +4,5 @@ bài 2:
 Connecting To a Database
 //Using Pool Size to define the number of connections opening
 //Also you can use a call back function for error handling
+
+test git
