@@ -10,3 +10,10 @@ if(1 === 1){
     mongoose.set('debug',true)
     mongoose.set('debug',{color:true})
 }
+
+module.exports = mongoose;
+
+//nhược điểm
+/**
+ * ở java hay các ngôn ngữ khác thì khi require thì sẽ khởi động lại sever điều này rấ tốn thời gian
+ */
